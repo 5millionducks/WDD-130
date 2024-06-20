@@ -24,3 +24,34 @@ img {
 p {
     padding: 10px;
 }
+
+main {
+    width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: rgb(130, 185, 233);
+    color: rgb(60, 9, 107);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+p { padding: 0px;}
+
+footer{
+    margin-top: 100px;
+    border-top: 1px solid lavender;
+    text-align: center;
+}
