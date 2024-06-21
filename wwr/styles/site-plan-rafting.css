@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/noto/specimen/Noto+Sans?preview.text=Cadenford%20Rafting&query=google);
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans?query=noto);
 
 body {
     font-family: var(--paragraph-font);
@@ -45,7 +45,7 @@ nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    pad: 1rem;
+    padding: 1rem;
 }
 
 nav a:link, nav a:visited {
