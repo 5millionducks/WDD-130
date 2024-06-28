@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #AA9FB1;
+    --secondary-color: #CCA7A2;
+    --accent1-color: #D9BBF9;
+    --accent2-color: #4E5283;
+
+    --heading-font: 'Noto Sans', sans-serif;
+    --paragraph-font: 'Noto Sans Thin 100', sans-serif;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+.container h1 {
+    position: absolute;
+    text-align: center;
+	font-size: 1.5rem;
+    background-color: rgba(216, 176, 176, 0.5);
+    padding: 10px;
+    z-index: 1;
+    top: 55%;
+    left: 5%;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+/* h1 {
+    position: absolute;
+    text-align: center;
+	font-size: 1.5rem;
+    background-color: rgba(216, 176, 176, 0.5);
+    padding: 10px;
+    z-index: 1;
+    top: 55%;
+    left: 5%;
+    width: 90%;
+    box-sizing: border-box;
+} */
+
+.hero img {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px
+}
+
+.article {
+    position: absolute;
+        border: 1px solid black;
+        background-color: rgba(145, 118, 206, 0.911);
+        padding: 50px;
+        margin: 10px;
+        z-index: 1;
+        top: 400px;
+        left: 50%;
+        transform: translate(-50%);
+}
+
+article img {
+    float: right;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+.section {
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    text-decoration: none;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.primary-color {
+    background-color: var(--primary-color);
+}
+
+.secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.accent1-color {
+    background-color: var(--accent1-color);
+}
+
+.accent2-color {
+    background-color: var(--accent2-color);
+}
