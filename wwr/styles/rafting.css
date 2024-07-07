@@ -93,7 +93,7 @@ header {
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
-	max-width: auto;
+	max-width: 4000px;
     background-color: var(--accent1-color);
 }
 
@@ -150,7 +150,7 @@ nav {
 
 nav a {
     display: block;
-    color: var(rgb(243, 40, 40));
+    color: var(--accent1-color);
     text-decoration: none;
     padding: 1rem;
 }
@@ -173,7 +173,7 @@ nav a:hover {
 footer {
     display: flex;
     justify-content: flex-end;
-    max-width: auto;
+    max-width: 4000px;
     background-color: var(--accent1-color);
 }
 
